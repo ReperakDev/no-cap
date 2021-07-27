@@ -4,5 +4,5 @@ import lombok.Getter;
 import lombok.Setter;
 
 public class NoCap {
-    private static @Getter @Setter int maxEnchantmentLevel = Short.MAX_VALUE;
+    private static @Getter @Setter int maxEnchantmentLevel = Integer.MAX_VALUE;
 }
